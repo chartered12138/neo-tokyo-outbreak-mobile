@@ -1,0 +1,99 @@
+{
+ "params": [
+  {
+   "id": "player.speed",
+   "label": "移动速度",
+   "group": "玩家",
+   "value": 6.4,
+   "min": 3,
+   "max": 9,
+   "step": 0.1,
+   "unit": "m/s"
+  },
+  {
+   "id": "player.sprint",
+   "label": "冲刺倍率",
+   "group": "玩家",
+   "value": 1.15,
+   "min": 1,
+   "max": 2.2,
+   "step": 0.05
+  },
+  {
+   "id": "player.hp",
+   "label": "生命值",
+   "group": "玩家",
+   "value": 200,
+   "min": 50,
+   "max": 400,
+   "step": 10,
+   "applies": "next"
+  },
+  {
+   "id": "player.sens",
+   "label": "鼠标灵敏度",
+   "group": "玩家",
+   "value": 1,
+   "min": 0.3,
+   "max": 3,
+   "step": 0.05
+  },
+  {
+   "id": "spawn.interval",
+   "label": "初始刷新间隔",
+   "group": "丧尸",
+   "value": 2.0,
+   "min": 0.5,
+   "max": 6,
+   "step": 0.1,
+   "unit": "s"
+  },
+  {
+   "id": "spawn.minInterval",
+   "label": "最短刷新间隔",
+   "group": "丧尸",
+   "value": 0.4,
+   "min": 0.15,
+   "max": 3,
+   "step": 0.05,
+   "unit": "s"
+  },
+  {
+   "id": "spawn.maxAlive",
+   "label": "同屏上限",
+   "group": "丧尸",
+   "value": 260,
+   "min": 40,
+   "max": 400,
+   "step": 10
+  },
+  {
+   "id": "zombie.speed",
+   "label": "丧尸速度倍率",
+   "group": "丧尸",
+   "value": 1,
+   "min": 0.4,
+   "max": 2.5,
+   "step": 0.05
+  },
+  {
+   "id": "zombie.hp",
+   "label": "丧尸生命倍率",
+   "group": "丧尸",
+   "value": 1,
+   "min": 0.3,
+   "max": 4,
+   "step": 0.1
+  },
+  {
+   "id": "ammo.cooldown",
+   "label": "弹药堆冷却",
+   "group": "补给",
+   "value": 12,
+   "min": 0,
+   "max": 60,
+   "step": 1,
+   "unit": "s"
+  }
+ ]
+}
